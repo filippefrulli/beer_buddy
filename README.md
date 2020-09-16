@@ -1,27 +1,13 @@
-# tensorflow_lite_flutter
+# Beer Buddy
 
-A flutter app to demonstrate usage of tensor flow lite ML.
+A flutter app to demonstrate the usage of tensor flow lite ML applied to everyone's favourite beverage.
 
-![App Demo](pictures/image1.gif)
-![Teachable Machine](pictures/image2.gif)
 
-The "TensorFlow" model is trained using [Teachable Machines](https://teachablemachine.withgoogle.com/train). The model is trained with different texture colors of walls. App will recognize the color and classify the color according to best match. This app will load a pre-trained model and start classification on frames received from Camera Controller. App will show results in real-time along with confidence percentages.
+The "TensorFlow" model is trained using [Teachable Machines](https://teachablemachine.withgoogle.com/train). The model is trained with different pictures of beer bottle labels. 
+The app will recognize the labels and classify the beer accordingly. It uses a pre-trained model and does classification of frames received from the Camera Controller. The app will show the most relevant result in real-time along with the confidence percentage.
+When the confidence exceeds 99.5%, the beer is identified and an info page will automatically open.
 
 Model can be downloaded from this [download link](https://drive.google.com/file/d/1IIUr2OVBKPS12rXb8F13n87Ypqj-9GBO/view?usp=sharing) and re-loaded on "Teachable Machines" website.
-
-## Labels
-
-| Class Id | Label Name |
-| ------------- | ------------- |
-| 0 | Black Texture  |
-| 1  | Blue Texture  |
-| 2  | Green Texture  |
-| 3 | Orange Texture  |
-| 4  | Pink Texture |
-| 5  | Purple Texture  |
-| 6  | Red Texture  |
-| 7 | White Texture  |
-| 8 | Yellow Texture  |
 
 ## TFLite Helper Class
 
