@@ -14,9 +14,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
-  tflite: ^1.0.5
+  tflite: ^1.1.1
   percent_indicator: ^2.1.1+1
-  camera: ^0.5.7+4
+  camera: ^0.5.8+5
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +30,25 @@ flutter:
   assets:
     - assets/model_unquant.tflite
     - assets/labels.txt
+    - assets/beer_icon.webp
+    - assets/images/Augustiner.png
+    - assets/images/Beck's.png
+    - assets/images/Carlsberg.png
+    - assets/images/Castello La Decisa.png
+    - assets/images/Ceres.png
+    - assets/images/Corona Extra.png
+    - assets/images/Dreher.png
+    - assets/images/Forst 1857.png
+    - assets/images/Forst Premium.png
+    - assets/images/Guinness Classic.png
+    - assets/images/Guinness Drought.png
+    - assets/images/Hacker-Pschorr.png
+    - assets/images/Heineken.png
+    - assets/images/Hofbräu München.png
+    - assets/images/Ichnusa Non Filtrata.png
+    - assets/images/Ichnusa.png
+    - assets/images/Löwenbräu.png
+    - assets/images/Menabrea.png
+    - assets/images/Moretti.png
+    - assets/images/Nastro Azzurro.png
+

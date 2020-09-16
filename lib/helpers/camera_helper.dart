@@ -1,6 +1,4 @@
 import 'package:camera/camera.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:tensorflow_lite_flutter/helpers/app_helper.dart';
 import 'package:tensorflow_lite_flutter/helpers/tflite_helper.dart';
 
@@ -23,10 +21,7 @@ class CameraHelper {
     AppHelper.log("_initializeCamera", "Initializing camera..");
 
     camera = CameraController(
-        await _getCamera(_direction),
-        defaultTargetPlatform == TargetPlatform.iOS
-            ? ResolutionPreset.low
-            : ResolutionPreset.high,
+        await _getCamera(_direction), ResolutionPreset.high,
         enableAudio: false);
     initializeControllerFuture = camera.initialize().then((value) {
       AppHelper.log(

@@ -1,9 +1,20 @@
-0 Black Texture
-1 Blue Texture
-2 Green Texture
-3 Orange Texture
-4 Pink Texture
-5 Purple Texture
-6 Red Texture
-7 White Texture
-8 Yellow Texture
+Augustiner
+Beck's
+Carlsberg
+Castello La Decisa
+Ceres
+Corona Extra
+Dreher
+Forst 1857
+Forst Premium
+Guinness Classic
+Guinness Drought
+Hacker-Pschorr
+Hofbräu München
+Heineken
+Ichnusa
+Ichnusa Non Filtrata
+Löwenbräu
+Menabrea
+Moretti
+Nastro Azzurro
